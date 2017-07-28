@@ -5,7 +5,6 @@ module.exports = {
   name: 'ember-cli-bootstrap-datepicker',
 
   included: function(...args) {
-    // this._super.included(app);
     const [app, parentAddon] = args
     const target = (parentAddon || app)
     this._super.included.apply(this, ...args)
